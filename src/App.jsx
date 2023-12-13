@@ -12,14 +12,14 @@ const MySwal = withReactContent(Swal);
 
 function App() {
   const firebaseConfig = {
-    apiKey: "AIzaSyDS4HKpMu5k2NZg5cati42R2cUv3zWbPhM",
-    authDomain: "bebeloves-cf261.firebaseapp.com",
-    projectId: "bebeloves-cf261",
-    storageBucket: "bebeloves-cf261.appspot.com",
-    messagingSenderId: "38408540489",
-    appId: "1:38408540489:web:c1001fe290853de83d0a98",
-    measurementId: "G-ZVNBZE7KWR"
-  };
+  apiKey: "AIzaSyDS4HKpMu5k2NZg5cati42R2cUv3zWbPhM",
+  authDomain: "bebeloves-cf261.firebaseapp.com",
+  projectId: "bebeloves-cf261",
+  storageBucket: "bebeloves-cf261.appspot.com",
+  messagingSenderId: "38408540489",
+  appId: "1:38408540489:web:c1001fe290853de83d0a98",
+  measurementId: "G-ZVNBZE7KWR"
+};
 
   firebase.initializeApp(firebaseConfig);
 
